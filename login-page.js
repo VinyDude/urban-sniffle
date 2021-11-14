@@ -11,9 +11,6 @@ loginButton.addEventListener("click", (e) => {
     if (username === "vincent" && password === "hi") {
         alert("Hi Vincent This is test for now");
         location.reload();
-    if (username === "Olivia" && password === "binmanisepic23") {
-        alert("Hi Vincent This is test for now");
-        location.reload();
     } else {
         loginErrorMsg.style.opacity = 1;
     }
