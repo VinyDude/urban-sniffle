@@ -9,7 +9,7 @@ loginButton.addEventListener("click", (e) => {
     const password = loginForm.password.value;
 
     if (username === "vincent" && password === "hi") {
-        alert("Hi Vincent This is test for now");
+        alert("hi");
         location.reload();
     } else {
         loginErrorMsg.style.opacity = 1;
