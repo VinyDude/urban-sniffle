@@ -11,7 +11,13 @@ loginButton.addEventListener("click", (e) => {
     if (username === "vincent" && password === "1234") {
         alert("Hi Vincent... Redirecting");
         window.location = "https://backtableweb.netlify.app/vincent.html"
-    } else {
+    } 
+    
+    if (username === "leon" && password === "5678") {
+        alert("Hi Leon... Redirecting");
+        window.location = "https://backtableweb.netlify.app/leon.html"
+    } 
+    else {
         loginErrorMsg.style.opacity = 1;
     }
 })
