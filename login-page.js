@@ -8,21 +8,21 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "vincent" && password === "1234") {
+    if (username === "vincent" && password === "1324") {
         alert("Hi Vincent... Redirecting");
         window.location = "https://backtableweb.netlify.app/vincent.html"
         loginErrorMsg.style.opacity = 0;
     } 
     
-    else if (username === "leon" && password === "5678") {
+    else if (username === "leon" && password === "8257") {
         alert("Hi Leon... Redirecting");
         window.location = "https://backtableweb.netlify.app/leon.html"
     } 
-    else if (username === "somayina" && password === "9101112") {
+    else if (username === "somayina" && password === "1234") {
         alert("Hi Somayina... Redirecting");
         window.location = "https://backtableweb.netlify.app/somyinia.html"
     }
-     else if (username === "leon" && password === "13141516") {
+     else if (username === "olivia" && password === "4321") {
         alert("Hi Olivia... Redirecting");
         window.location = "https://backtableweb.netlify.app/olivia.html"
     }
